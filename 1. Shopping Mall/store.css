@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.wrapper-header {
+  padding: 50px 70px;
+  background-color: lightgrey;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1075px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.container-templete {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  width: 250px;
+  height: 450px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 20px black;
+}
+
+.card h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card .card-explain {
+  color: gray;
+  font-size: 14px;
+}
+
+.card .btn-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.card .btn {
+  width: 50%;
+  margin: 3px;
+}
+
+.wrapper-cart {
+  width: 1075px;
+  height: 600px;
+  background-color: grey;
+  margin-top: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 장바구니글자 */
+.wrapper-body-card {
+  width: 100%;
+  height: 30px;
+  margin: 20px 0px 10px 0px;
+  padding-left: 55px;
+
+}
+
+.wrapper-body-card p {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.wrapper-body-box {
+  background-color: black;
+  width: 90%;
+  height: 85%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-body-box p {
+  color: white;
+}
