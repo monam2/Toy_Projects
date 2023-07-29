@@ -4,6 +4,8 @@
     - '식기' 검색어를 입력했을 때, if 문에 넣은 console.log(1)과 else문의 alert가 동시에 실행되는 것을 확인.
     - 이벤트리스터 내의 반복문때문임을 확인하고 아래와 같이 수정함.
     - for (let i = 0; i < products.length; i++) 반복문의 각 if / else if / else 구문에 return을 추가해 오류를 수정함
+:검색어 하이라이트 기능 추가.
+    - '식기' 로 검색하면 상품 목록에서 '식기' 라는 글자를 style="background : yellow" 를 이용하여 노란색으로 하이라이트 처리.
 
 2023.07.26
 : 검색 기능 구현.
