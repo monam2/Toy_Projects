@@ -30,6 +30,10 @@ $.get("./store.json").done((jsondata) => {
                     </div>
                     </div>`
                     $(".container-templete").append(templete);
+
+                    $("h5").html($("h5").html().replace(`${words}`,`<span style="background : yellow">${words}</span>`))
+
+
                     return
                 } else if (products[i].brand.includes(words)) {
                     let templete = `<div class="card">
@@ -43,6 +47,7 @@ $.get("./store.json").done((jsondata) => {
                     </div>
                     </div>`
                     $(".container-templete").append(templete);
+                    $(".card-brand").html($(".card-brand").html().replace(`${words}`,`<span style="background : yellow">${words}</span>`))
                     return
                 } else { //제목이나 브랜드에 words가 없으면
                     alert('올바른 검색어를 입력하세요!')
